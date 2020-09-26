@@ -34,11 +34,9 @@ class BinarySearchTree {
             }
         }
     }
-       searchClosest(){
+       searchClosest(node, targetNum){
         var data = [];
-        var data_index = [];
-        var current;
-        const targetNum = 12;
+        var data_index = []
 
         function traverse(node){
             if(targetNum > node.value){
