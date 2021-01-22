@@ -25,6 +25,8 @@ function smallestDifference(arrayOne, arrayTwo) {
         }
 
        console.log(arr);
+       console.log(arr);
+
 
       }
 return arr;
